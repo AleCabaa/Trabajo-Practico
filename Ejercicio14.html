@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primo o no primo</title>
+</head>
+<body>
+    <script>
+        /*var n1 = prompt("Escribe un número");
+        var i;
+        var esPrimo = true;
+        for (i = 2; i <= n1 / 2; i++) {
+            if (n1 % i === 0) {
+                esPrimo = false;
+                break; // Puedes salir del bucle tan pronto encuentres un divisor
+            }
+        }
+        if (esPrimo) {
+            document.write("El número es primo");
+        } else {
+            document.write("El número no es primo");
+        }*/
+
+        var n1 = prompt("Escribe un número");
+        var i = 2;
+        while (n1 % i !== 0 && i < n1 / 2) {
+            i++;
+        }
+        if (n1 % i !== 0) {
+        document.write("El número es primo");
+        } else {
+        document.write("El número no es primo");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del encabezado h1 */
+header h1 {
+    font-size: 24px;
+}
+
+/* Estilo de la imagen de perfil */
+header img {
+    border-radius: 50%;
+    border: 10px solid #3b0505;
+    margin-top: 10px;
+}
+
+/* Estilo de las secciones wrapper */
+.wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(119, 94, 228, 0.1);
+}
+
+/* Estilo de las secciones main */
+.main {
+    font-size: 18px;
+}
+
+/* Estilo de los títulos h2 */
+h2 {
+    color: #007BFF;
+    font-size: 22px;
+}
+
+/* Estilo de las listas ul en los artículos */
+article ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo de los ítems de la lista */
+article ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo de los enlaces de volver a la página principal */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}/*
+
+/* Cambia el color del enlace cuando se pasa el ratón por encima */
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilo de GIT */
+/* Estilo general del cuerpo de la página */
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilo del encabezado h1 */
+h1 {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+/* Estilo de las secciones .main */
+section.main {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los títulos h2 dentro de .main */
+section.main h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los párrafos dentro de .main */
+section.main p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estilo de los enlaces de "Volver a la Pagina Principal" */
+a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambia el color del enlace cuando se pasa el ratón por encima */
+a:hover {
+    background-color: #0056b3;
+}
+
+
+/*Archivo Css que pertenece al Index.html/*
+
+/* Estilo general del cuerpo de la página */
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para la etiqueta h1 en el encabezado */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para la lista de navegación */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de navegación */
+ul li {
+    margin: 10px;
+}
+
+/* Estilo para los enlaces en la lista de navegación */
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Cambiar el color de los enlaces al pasar el mouse sobre ellos */
+ul li a:hover {
+    color: #007bff; /* Color de enlace al pasar el mouse */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para los encabezados h1 y h2 */
+h1 {
+    color: #e61f1f;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #a34242;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #11486e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
